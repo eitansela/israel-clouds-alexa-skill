@@ -1,0 +1,22 @@
+{
+    "name": "israel-clouds-alexa-skill",
+    "version": "1.0.0",
+    "description": "Israel Clouds Alexa skill.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "alexa",
+        "skill",
+        "Israel Clouds"
+    ],
+    "author": "Eitan Sela",
+    "dependencies": {
+        "alexa-sdk": "^1.0.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eitan.sela/israel-clouds-alexa-skill"
+    }
+}
