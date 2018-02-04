@@ -48,12 +48,12 @@ var stateHandlers = {
             this.emit(':responseReady');
         },
         'AMAZON.StopIntent': function() {
-            var message = 'Good bye.';
+            var message = 'Good bye. We hope to see you again in Israel Clouds podcast soon.';
             this.response.speak(message);
             this.emit(':responseReady');
         },
         'AMAZON.CancelIntent': function() {
-            var message = 'Good bye.';
+            var message = 'Good bye. We hope to see you again in Israel Clouds podcast soon.';
             this.response.speak(message);
             this.emit(':responseReady');
         },
@@ -171,12 +171,12 @@ var stateHandlers = {
             this.emit(':responseReady');
         },
         'AMAZON.StopIntent': function() {
-            var message = 'Good bye.';
+            var message = 'Good bye. We hope to see you again in Israel Clouds podcast soon.';
             this.response.speak(message);
             this.emit(':responseReady');
         },
         'AMAZON.CancelIntent': function() {
-            var message = 'Good bye.';
+            var message = 'Good bye. We hope to see you again in Israel Clouds podcast soon.';
             this.response.speak(message);
             this.emit(':responseReady');
         },
