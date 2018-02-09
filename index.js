@@ -5,7 +5,9 @@ var constants = require('./constants');
 var stateHandlers = require('./stateHandlers');
 var audioEventHandlers = require('./audioEventHandlers');
 
-exports.handler = function(event, context, callback){
+exports.handler = function(event, context, callback) {
+    console.log('Received event:', JSON.stringify(event, null, 2));
+
     var alexa = Alexa.handler(event, context);
     alexa.appId = constants.appId;
     alexa.dynamoDBTableName = constants.dynamoDBTableName;
